@@ -1,0 +1,291 @@
+
+/*
+===============================
+Global CSS START
+===============================
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--black);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html,
+body {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+img, svg {
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+  /* transition: all 0.3s ease-out 0s;
+  display: block; */
+}
+
+a,
+.button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+  color: var(--text-white);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  line-height: 1.2;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+h4,
+h5 {
+  font-weight: 600;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/*
+==========================
+Main Btn Css Start
+==========================
+*/
+
+.site-btn {
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px 30px;
+  display: inline-block;
+  transition: 0.3s all ease;
+  border-radius: 30px;
+  color: var(--secondery);
+  font-family: 'Poppins', sans-serif;
+}
+
+.site-btn:hover {
+  color: var(--secondery);
+}
+
+/*
+=========================
+Main Btn Css End 
+=========================
+*/
+
+#page {
+  overflow: hidden;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+/*
+============================
+Global CSS END
+============================
+*/
+
+/*
+============================
+Timeline Css Start
+============================
+*/
+
+.section-title {
+  margin-bottom: 60px;
+}
+
+.section-title h3 {
+  text-transform: capitalize;
+  font-size: 36px;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.section-title h3:before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 2px;
+  background-color: #ff3636;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section-title h3::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #ff3636;
+  border-radius: 50%;
+  bottom: -3px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section-title p {
+  font-size: 16px;
+}
+
+.timeline-list {
+  position: relative;
+}
+
+.timeline-list:after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background-color: #ff3636;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+.timeline-list li:after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #ff3636;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.timeline-list li .timeline-content {
+  width: 45%;
+  border: 2px solid #ff3636;
+  text-align: right;
+  padding: 20px;
+}
+
+.timeline-list li .timeline-content span {
+  display: block;
+  color: #ff3636;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.timeline-list li .timeline-content h4 {
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.timeline-list li {
+  clear: both;
+  display: table;
+  position: relative;
+}
+
+.timeline-list li:nth-child(2n) .timeline-content {
+  float: right;
+  text-align: left;
+}
+/*
+============================
+Timeline Css End
+============================
+*/
+
+
+
+
+
+
+/*
+============================
+Footer Css Start
+============================
+*/
+
+
+
+/*
+============================
+Footer Css End
+============================
+*/
+
+
+
+
+
+
+
+/*
+============================
+Responsive Css Start
+============================
+*/
+
+@media screen and (min-width: 1360px) {
+
+ .container{
+    max-width: 1230px;
+ }
+ 
+ }
+ /* ----- Laptop device screen ----- */
+ @media only screen and (max-width:1199px) {
+ 
+ }
+ /* ----- Tablet device screen ----- */
+ @media only screen and (max-width:991px) {
+ 
+ }
+ /* ----- Mobile device screen ----- */
+ @media only screen and (max-width:767px) {
+ 
+ }
+ 
+ /*
+ ============================
+ Responsive Css End
+ ============================
+ */
